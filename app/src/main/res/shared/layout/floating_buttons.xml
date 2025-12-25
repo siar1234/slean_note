@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:id="@+id/floatingButtonsView">
+
+    <LinearLayout
+        android:id="@+id/folderButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/folderButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            tools:ignore="SpUsage"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/folder"/>
+
+        <Button
+            android:id="@+id/folderButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/icons_font"
+            android:text="@string/icons_folder"
+            android:textSize="35dp"
+            tools:ignore="SpUsage"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            style="?android:buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noteButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="end"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/noteButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            tools:ignore="SpUsage"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/note"/>
+
+        <Button
+            android:id="@+id/noteButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/icons_font"
+            android:text="@string/icons_note"
+            android:textSize="35dp"
+            tools:ignore="SpUsage"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            style="?android:buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/plusButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="7.5dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginHorizontal="15dp"
+            android:fontFamily="@font/icons_font"
+            android:text="@string/icons_plus"
+            android:textSize="35dp"
+            tools:ignore="SpUsage"
+            android:textColor="@color/white"
+            style="?android:buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/restoringView"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end|bottom"
+        android:clickable="true"
+        android:focusable="true" />
+
+</FrameLayout>

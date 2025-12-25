@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_actionBar">40dp</dimen>
+    <dimen name="icon_actionBar">20sp</dimen>
+    <dimen name="margin_actionBar">2.5dp</dimen>
+
+    <dimen name="padding_setting">5dp</dimen>
+    <dimen name="text_setting">15sp</dimen>
+
+    <dimen name="title_grid">17sp</dimen>
+    <dimen name="content_grid">15sp</dimen>
+
+    <dimen name="text_editTheme">15sp</dimen>
+    <dimen name="selectedColor_editTheme">40dp</dimen>
+
+    <dimen name="height_selectedColors">60dp</dimen>
+
+    <dimen name="height_preview">500dp</dimen>
+
+    <dimen name="height_statusBar">25dp</dimen>
+
+    <dimen name="text_percent_color">15sp</dimen>
+
+    <dimen name="icon_export_type">15sp</dimen>
+
+    <dimen name="height_theme_input">100dp</dimen>
+    <dimen name="margin_horizontal_theme_input">0dp</dimen>
+    <dimen name="margin_vertical_theme_input">0dp</dimen>
+
+    <dimen name="height_theme_preview">300dp</dimen>
+</resources>

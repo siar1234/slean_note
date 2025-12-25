@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/view_rounded_top"
+    android:orientation="vertical">
+
+    <include layout="@layout/handle_bottom_sheet"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_moveToOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:paddingHorizontal="10dp"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:text="@string/move_to_other" />
+
+            <include
+                android:id="@+id/hide_content"
+                layout="@layout/checkbox_and_text"/>
+
+            <include
+                android:id="@+id/input_date_first"
+                layout="@layout/date_picker" />
+
+            <include
+                android:id="@+id/input_date_last"
+                layout="@layout/date_picker" />
+
+            <View
+                android:id="@+id/emptyView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:openDrawer="left"
+    android:layout_gravity="start"
+    android:id="@+id/menu"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true">
+
+    <Button
+        android:id="@+id/menu_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:text="@string/icons_back"
+        android:textSize="25sp"
+        android:fontFamily="@font/icons_font"
+        android:textColor="@color/black"
+        android:background="?selectableItemBackgroundBorderless"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/btn_showFavorites"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/icon_fav"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/icons_font"
+                    android:gravity="center"
+                    android:text="@string/icons_star_filled"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toStartOf="@id/EditFavsButton"
+                    android:layout_toLeftOf="@id/EditFavsButton"
+                    android:layout_toEndOf="@id/icon_fav"
+                    android:layout_toRightOf="@id/icon_fav"
+                    android:gravity="center_vertical"
+                    android:text="@string/favorites"
+                    android:textColor="@color/text_menu"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/EditFavsButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:fontFamily="@font/icons_font"
+                    android:text="@string/icons_edit"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/view_favs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:minHeight="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/btn_backup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/icon_backup"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/icons_font"
+                    android:gravity="center"
+                    android:text="@string/icons_backup"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/text_backup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_menu"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/backup"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_restore"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/icon_restore"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="@string/icons_restore"
+                    android:fontFamily="@font/icons_font"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/text_restore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_menu"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/restore"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_trash"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/icon_trash"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="@string/icons_trash"
+                    android:fontFamily="@font/icons_font"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/text_trash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_menu"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/trashActivity"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/icon_setting"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="@string/icons_setting"
+                    android:fontFamily="@font/icons_font"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/text_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_menu"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/settingActivity"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_Google/app/src/main/res/layout/edit_note.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_Google/app/src/main/res/layout/menu.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_Google/app/src/main/res/layout/menu_sort.xml" value="0.4" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/item/layout/favorite.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/item/layout/linear_item.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/layout/action_bar.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/layout/action_bar_old.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/layout/activity_trash.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/layout/menu.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/shared/layout/alert.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_Java_OneStore/app/src/main/res/shared/layout/floating_buttons.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/activity_edit_note.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/activity_trash.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/alert.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/background_popup.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/btn_set_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/checkbox_and_text.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/edit_folder.xml" value="0.2" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/edit_note.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/favorite.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/floating_buttons.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/grid_folder.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/grid_note.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/input_date.xml" value="0.4" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/input_detail.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/input_filename.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/item.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/linear_folder.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/linear_item.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/linear_note.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/menu.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/menu_sort.xml" value="0.4" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/setting.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/setting_checkbox.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/top_bar.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/trash.xml" value="0.264" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/view_detail.xml" value="0.1296875" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/view_note.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/Note_SQLite/app/src/main/res/layout/view_notes.xml" value="0.161231884057971" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="io.reactivex.annotations.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="16">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="org.jspecify.nullness.Nullable" />
+          <item index="15" class="java.lang.String" itemvalue="jakarta.annotation.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="16">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="jakarta.annotation.Nonnull" />
+          <item index="15" class="java.lang.String" itemvalue="org.jspecify.nullness.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

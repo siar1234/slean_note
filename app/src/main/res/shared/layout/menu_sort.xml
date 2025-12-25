@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="5dp"
+    android:id="@+id/menu_sort">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <Button
+                android:id="@+id/showLinear"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/showGrid"
+                android:background="?selectableItemBackgroundBorderless"
+                android:text="@string/icons_linear"
+                android:fontFamily="@font/icons_font"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/showGrid"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                app:layout_constraintLeft_toRightOf="@+id/showLinear"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:text="@string/icons_grid"
+                android:fontFamily="@font/icons_font"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/sortByCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:paddingHorizontal="5dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="@string/sortByCreatedDate"/>
+
+    <TextView
+        android:id="@+id/sortByModifiedDate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:background="?selectableItemBackground"
+        android:paddingHorizontal="5dp"
+        android:gravity="center"
+        android:text="@string/sortByModifiedDate"/>
+
+    <TextView
+        android:id="@+id/sortByReverse"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:background="?selectableItemBackground"
+        android:paddingHorizontal="5dp"
+        android:gravity="center"
+        android:text="@string/SortByReverse"/>
+
+</LinearLayout>

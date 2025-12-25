@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearItem"
+    android:background="@drawable/view_rounded"
+    android:layout_marginVertical="15px"
+    tools:ignore="pxUsage">
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="@string/icons_note"
+        android:fontFamily="@font/icons_font"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:layout_toLeftOf="@id/buttonSet"
+        android:layout_toStartOf="@id/buttonSet"
+        android:text="@string/title"/>
+
+    <LinearLayout
+        android:id="@+id/buttonSet"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_fav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:fontFamily="@font/icons_font"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_detail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/icons_more_info"
+            android:fontFamily="@font/icons_font"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/icons_edit"
+            android:fontFamily="@font/icons_font"
+            style="?android:attr/buttonBarButtonStyle"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_move"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/icons_sort"
+            android:fontFamily="@font/icons_font"
+            android:background="@color/transparent"
+            style="?android:attr/buttonBarButtonStyle"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">노트</string>
+
+    <string name="updating">업데이트 중입니다. 잠시만 기다려주세요</string>
+    <string name="notice_backup">백업 파일은 download 폴더에 저장됩니다.\n뒤에 있는 .db를 지우시면 백업이 안될수도 있습니다</string>
+    <string name="notice_restore">백업 파일이 download 폴더에 있어야 합니다.</string>
+    <string name="help_restore">(파일이름).db</string>
+    <string name="sortByCreatedDate">최초 작성 날짜 순으로 정렬</string>
+    <string name="sortByModifiedDate">마지막 수정 날짜 순으로 정렬</string>
+    <string name="SortByReverse">순서 뒤집기</string>
+
+    <string name="onlyShowTitle">제목만 표시</string>
+    <string name="enterCreatedDate">최초 작성 날짜 직접 입력</string>
+    <string name="enterModifiedDate">최초 작성 날짜 직접 입력</string>
+
+    <string name="folder">폴더</string>
+    <string name="note">노트</string>
+    <string name="title">제목</string>
+    <string name="content">내용</string>
+    <string name="favorites">즐겨찾기</string>
+    <string name="restore">복원</string>
+    <string name="backup">백업</string>
+    <string name="folderName">폴더 이름</string>
+    <string name="year">년</string>
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="minute">분</string>
+    <string name="hour">시</string>
+    <string name="no">아니오</string>
+    <string name="yes">네</string>
+
+    <string name="ask_delete">삭제하시겠습니까?</string>
+    <string name="ask_delete_theme">테마를 삭제하시겠습니까?</string>
+    <string name="ask_update">수정된 노트를 저장하지 않으시겠습니까?</string>
+    <string name="ask_add">저장하지 않으시겠습니까?</string>
+
+    <string name="move_to_other">옳기기</string>
+    <string name="createdDate">최초 작성:</string>
+    <string name="modifiedDate">마지막 수정:</string>
+
+    <string name="successBackup">백업이 완료됐습니다</string>
+    <string name="successRestore">복원이 완료됐습니다</string>
+    <string name="trashActivity">휴지통</string>
+
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+    <string name="settingActivity">설정</string>
+
+    <string name="about_onlyShowTitle">노트를 생성할때 제목만 표시하는것이 기본값</string>
+    <string name="about_hideFavs">앱을 실행시켰을때 메뉴의 즐겨찾기들이 안 보이게 하기</string>
+
+    <string name="failToBackup">백업에 실패했습니다</string>
+    <string name="failToRestore">복원에 실패했습니다</string>
+    <string name="cannotFind">파일을 찾을 수 없습니다</string>
+    <string name="empty">비우기</string>
+    <string name="trash_description">휴지통에 있는 것들은 30일 뒤에 자동으로 영구 삭제됩니다.</string>
+
+    <string name="delete">삭제</string>
+
+    <string name="notEmptyPlease__folder">뭐라도 좀 쓰십쇼......</string>
+
+    <string name="upgrade_to_premium">프리미엄으로 업그레이드</string>
+    <string name="restore_purchased">구매 복구</string>
+
+    <string name="wait">잠시만 기다려주세요....</string>
+
+    <string name="about_theme">테마: </string>
+
+    <string name="themeTitle_light">기본 밝은테마</string>
+    <string name="themeTitle_dark">기본 어두운테마</string>
+
+    <string name="color_totalBlack">기본 완전 검은색k</string>
+    <string name="color_darkBlack">기본 어두운 검은색</string>
+    <string name="color_lightBlack">기본 밝은 검은색</string>
+
+    <string name="color_darkGray">기본 어두운 회색</string>
+    <string name="color_middleGray">기본 중간 회색</string>
+    <string name="color_lightGray">기본 밝은 회색</string>
+
+    <string name="color_totalWhite">기본 하얀색</string>
+
+    <string name="color_lightBlue">기본 밝은 파란색</string>
+
+    <string name="add_theme">테마 추가</string>
+    <string name="choose_template">템플릿 선택</string>
+
+    <string name="color_actionBarBack">액션바 배경색: </string>
+    <string name="color_actionBarText">액션바 글자색: </string>
+    <string name="color_actionBarIcon">액션바 아이콘색: </string>
+
+    <string name="color_mainItemBack">노트와 폴더의 배경색: </string>
+    <string name="color_mainItemText">노트와 폴더의 글자색: </string>
+    <string name="color_mainItemIcon">노트와 폴더의 아이콘색:: </string>
+
+    <string name="color_mainViewBack">배경색: </string>
+
+    <string name="color_floatingBtnText">동그란 버튼 글자색: </string>
+    <string name="color_floatingBtnIcon">동그란 버튼 아이콘색: </string>
+    <string name="color_floatingBtn">동그란 버튼 배경색: </string>
+
+    <string name="theme_NavMenuBack">메뉴 배경색: </string>
+    <string name="theme_NavMenuIcon">메뉴 아이콘색: </string>
+    <string name="theme_NavMenuText">메뉴 글자색: </string>
+
+    <string name="theme_PopupMenuBack">팝업메뉴 글자색: </string>
+    <string name="theme_PopupMenuIcon">팝업메뉴 아이콘색: </string>
+    <string name="theme_PopupMenuDisabledIcon">팝업메뉴 비활성화 아이콘색: </string>
+    <string name="theme_PopupMenuText">팝업메뉴 글자색: </string>
+
+    <string name="theme_dialogBack">팝업 배경색: </string>
+    <string name="theme_dialogText">팝업 글자색: </string>
+    <string name="theme_dialogHint">팝업 힌트색: </string>
+    <string name="theme_dialogIcon">팝업 아이콘색: </string>
+    <string name="theme_dialogCheckbox">팝업 체크박스색: </string>
+
+    <string name="theme_editNoteBack">배경색: </string>
+    <string name="theme_editNoteText">글자색: </string>
+    <string name="theme_editNoteHint">힌트색: </string>
+    <string name="theme_editNoteIcon">아이콘색: </string>
+
+    <string name="theme_statusBarBack">상태바 배경: </string>
+    <string name="theme_statusBarText">상태바 글자색: </string>
+
+    <string name="theme_TrashBack">배경색: </string>
+    <string name="theme_TrashText">글자색: </string>
+    <string name="theme_TrashIcon">아이콘색: </string>
+    <string name="theme_TrashItemBack">아이템 배경: </string>
+    <string name="theme_TrashItemText">아이템 글자색: </string>
+
+    <string name="theme_SettingBack">배경색: </string>
+    <string name="theme_SettingText">글자색: </string>
+    <string name="theme_SettingIcon">아이콘색: </string>
+    <string name="theme_SettingCheckbox">체크박스색: </string>
+
+    <string name="theme_bottomSheetBack">바텀시트 배경: </string>
+    <string name="theme_bottomSheetText">바텀시트 글자색: </string>
+    <string name="theme_bottomSheetIcon">바텀시트 아이콘색: </string>
+    <string name="theme_bottomSheetCheckbox">바텀시트 체크박스색: </string>
+
+    <string name="theme_name">테마 이름</string>
+    <string name="red">빨강</string>
+    <string name="green">초록</string>
+    <string name="opacity">불투명도</string>
+    <string name="blue">파랑</string>
+    <string name="color_name">색깔 이름</string>
+
+    <string name="fail_verify_purchase">구매확인에 실패하였습니다</string>
+    <string name="require_purchase">프리미엄만 테마를 추가할 수 있습니다</string>
+
+    <string name="theme_data_title_status_bar_background">sex</string>
+    <string name="theme_data_title_status_bar_text_color">sex</string>
+    <string name="theme_data_title_navigation_bar_background">sex</string>
+    <string name="theme_data_title_navigation_bar_icon_color">sex</string>
+
+    <string name="theme_data_title_note_background">sex</string>
+    <string name="theme_data_title_note_text_color">sex</string>
+    <string name="theme_data_title_note_icon_color">sex</string>
+
+    <string name="theme_data_title_folder_background">sex</string>
+    <string name="theme_data_title_folder_text_color">sex</string>
+    <string name="theme_data_title_folder_icon_color">sex</string>
+
+    <string name="theme_data_title_background">back</string>
+    <string name="theme_data_title_text_color">text</string>
+    <string name="theme_data_title_text_highlight_color">highlight text</string>
+    <string name="theme_data_title_icon_color">icon</string>
+    <string name="theme_data_title_checkbox_color">checkbox</string>
+
+    <string name="theme_data_title_nav_menu_background">nav menu back</string>
+    <string name="theme_data_title_nav_menu_text_color">nav menu text</string>
+    <string name="theme_data_title_nav_menu_icon_color">nav menu icon</string>
+
+    <string name="theme_data_title_favorite_text_color">fav text color</string>
+    <string name="theme_data_title_favorite_icon_color">fav icon</string>
+
+    <string name="theme_data_title_floating_button_background">float button back</string>
+    <string name="theme_data_title_floating_button_text_color">float button text</string>
+    <string name="theme_data_title_floating_button_icon_color">float button icon</string>
+
+    <string name="theme_data_title_popup_menu_background">popup menu back</string>
+    <string name="theme_data_title_popup_menu_text_color">popup menu text</string>
+    <string name="theme_data_title_popup_menu_icon_color">popup menu icon</string>
+    <string name="theme_data_title_popup_menu_disabled_icon_color">popup menu dis icon</string>
+
+    <string name="theme_data_title_dialog_background">popup back</string>
+    <string name="theme_data_title_dialog_text_color">popup text</string>
+    <string name="theme_data_title_dialog_text_highlight_color">popup highlight text</string>
+    <string name="theme_data_title_dialog_icon_color">popup icon</string>
+    <string name="theme_data_title_dialog_checkbox_color">popup checkbox</string>
+
+    <string name="theme_data_title_bottom_sheet_background">bottom_sheet back</string>
+    <string name="theme_data_title_bottom_sheet_text_color">bottom_sheet text</string>
+    <string name="theme_data_title_bottom_text_highlight_color">bottom_sheet highlight text</string>
+    <string name="theme_data_title_bottom_sheet_icon_color">bottom_sheet icon</string>
+    <string name="theme_data_title_bottom_sheet_checkbox_color">bottom_sheet checkbox</string>
+    <string name="theme_data_title_bottom_sheet_handle_color">bottom_sheet handle</string>
+
+
+    <string name="set_as_default_dark_theme">Set as default darkTheme</string>
+    <string name="set_as_default_light_theme">Set as default lightTheme</string>
+
+    <string name="example">Example: </string>
+    <string name="directory_name_example">(directoryName)</string>
+
+    <string name="file_type_database">database file</string>
+    <string name="file_type_text">text file</string>
+    <string name="title_dialog_choose_file_type">sex</string>
+
+    <string name="login">로그인</string>
+    <string name="register">회원가입</string>
+</resources>

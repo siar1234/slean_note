@@ -1,0 +1,133 @@
+|                12                |
+|               1234               |
+|              123456              |
+|             12345678             |
+|            1234567890            |
+|           123456789012           |
+|          12345678901234          |
+
+version 2 ---------------------------------------------------------------------------------------------------------------
+
+DatabaseName : Note.db
+
+Table Name : Notes
+
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|                Id                |              INTEGER             |           "Id" INTEGER           |
+|               Title              |               TEXT               |           "Text" TEXT            |
+|            CreatedDate           |              INTEGER             |       "CreatedDate" INTEGER      |
+|           ModifiedDate           |              INTEGER             |      "ModifiedDate" INTEGER      |
+|            Description           |              INTEGER             |       "Description" INTEGER      |
+|               Home               |              INTEGER             |           "Home" INTEGER         |
+|             Position             |              INTEGER             |        "Position" INTEGER        |
+|         FavoritePosition         |              INTEGER             |    "FavoritePosition" INTEGER    |
+|             Password             |               TEXT               |          "Password" TEXT         |
+|            TextColor             |               TEXT               |          "TextColor" TEXT        |
+|            Background            |                                  |           "Background"           |
+|               TEXT               |                                  |              "TEXT"              |
+----------------------------------------------------------------------------------------------------------
+
+version 2 ---------------------------------------------------------------------------------------------------------------
+
+version 1 ---------------------------------------------------------------------------------------------------------------
+
+DatabaseName : Note.db
+
+Table Name : Notes
+Create Table : CREATE TABLE Notes(Id INTEGER PRIMARY KEY AUTOINCREMENT, Title TEXT, Content TEXT, CreatedDate INTEGER, ModifiedDate INTEGER, Description INTEGER, Parent INTEGER, Position INTEGER, Position_Favorite INTEGER, Password TEXT, TextColor TEXT, Background, TEXT)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|                Id                |              INTEGER             |           "Id" INTEGER           |
+|               Title              |               TEXT               |           "Text" TEXT            |
+|            CreatedDate           |              INTEGER             |       "CreatedDate" INTEGER      |
+|           ModifiedDate           |              INTEGER             |      "ModifiedDate" INTEGER      |
+|            Description           |              INTEGER             |       "Description" INTEGER      |
+|              Parent              |              INTEGER             |         "Parent" INTEGER         |
+|             Position             |              INTEGER             |        "Position" INTEGER        |
+|        Position_Favorite         |              INTEGER             |   "Position_Favorite" INTEGER    |
+|             Password             |               TEXT               |          "Password" TEXT         |
+|            TextColor             |               TEXT               |          "TextColor" TEXT        |
+|            Background            |                                  |           "Background"           |
+|               TEXT               |                                  |              "TEXT"              |
+----------------------------------------------------------------------------------------------------------
+
+Description Example:
+    public static final int Note_ShowContent_Normal_In_FirstPage = 1000, Note_ShowContent_Favorite_In_FirstPage = 1010;
+    public static final int Note_HideContent_Normal_In_FirstPage = 1100, Note_HideContent_Favorite_In_FirstPage = 1110;
+    public static final int Folder_Grid_Normal_In_FirstPage = 2200, Folder_Grid_Favorite_In_FirstPage = 2210;
+    public static final int Folder_Linear_Normal_In_FirstPage = 2300, Folder_Linear_Favorite_In_FirstPage = 2310;
+    public static final int Note_ShowContent_Normal_In_Folder = 1001, Note_ShowContent_Favorite_In_Folder = 1011;
+    public static final int Note_HideContent_Normal_In_Folder = 1101, Note_HideContent_Favorite_In_Folder = 1111;
+    public static final int Folder_Grid_Normal_In_Folder = 2201, Folder_Grid_Favorite_In_Folder = 2211;
+    public static final int Folder_Linear_Normal_In_Folder = 2301, Folder_Linear_Favorite_In_Folder = 2311;
+    public static final int DeletedNote_ShowContent_Normal_In_FirstPage = 11000, DeletedNote_ShowContent_Favorite_In_FirstPage = 11010;
+    public static final int DeletedNote_HideContent_Normal_In_FirstPage = 11100, DeletedNote_HideContent_Favorite_In_FirstPage = 11110;
+    public static final int DeletedFolder_Grid_Normal_In_FirstPage = 12200, DeletedFolder_Grid_Favorite_In_FirstPage = 12210;
+    public static final int DeletedFolder_Linear_Normal_In_FirstPage = 12300, DeletedFolder_Linear_Favorite_In_FirstPage = 12310;
+    public static final int DeletedNote_ShowContent_Normal_In_DeletedFolder = 11001, DeletedNote_ShowContent_Favorite_In_DeletedFolder = 11011;
+    public static final int DeletedNote_HideContent_Normal_In_DeletedFolder = 11101, DeletedNote_HideContent_Favorite_In_DeletedFolder = 11111;
+    public static final int DeletedFolder_Grid_Normal_In_DeletedFolder = 12201, DeletedFolder_Grid_Favorite_In_DeletedFolder = 12211;
+    public static final int DeletedFolder_Linear_Normal_In_DeletedFolder = 12301, DeletedFolder_Linear_Favorite_In_DeletedFolder = 12311;
+
+Table Name : Setting
+Create Table : CREATE TABLE Setting(Id INTEGER PRIMARY KEY , Text TEXT)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|                Id                |              INTEGER             |           "Id" INTEGER           |
+|               Text               |               TEXT               |           "Text" TEXT            |
+----------------------------------------------------------------------------------------------------------
+
+Setting Id:
+public static final int About_OnlyShowTitle = 0, About_HideFavs = 1, About_FirstPage = 2, About_UserState = 3,  About_Theme = 4;
+
+
+Table Name : ItemInNote
+Create Table : CREATE TABLE ItemInNote(Id INTEGER PRIMARY KEY AUTOINCREMENT, Text TEXT, Description INTEGER, Parent INTEGER)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|                Id                |              INTEGER             |           "Id" INTEGER           |
+|               Text               |               TEXT               |           "Text" TEXT            |
+|            Description           |              INTEGER             |       "Description" INTEGER      |
+|              Parent              |              INTEGER             |         "Parent" INTEGER         |
+----------------------------------------------------------------------------------------------------------
+
+"ItemInNote" is never used
+
+
+Table Name : Themes
+Create Table : CREATE TABLE Themes(Id INTEGER PRIMARY KEY AUTOINCREMENT, Title TEXT, Text TEXT, Description INTEGER)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|                Id                |              INTEGER             |           "Id" INTEGER           |
+|               Title              |               TEXT               |           "Text" TEXT            |
+|               Text               |               TEXT               |           "Text" TEXT            |
+|            Description           |              INTEGER             |       "Description" INTEGER      |
+----------------------------------------------------------------------------------------------------------
+
+if "Description" is 0 , it is theme
+and if "Description"  is 1 , it is color
+
+Table Name : android_metadata
+Create Table : CREATE TABLE android_metadata (locale TEXT)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|              locale              |               TEXT               |          "locale" TEXT           |
+----------------------------------------------------------------------------------------------------------
+
+Table Name : sqlite_sequence
+Create Table : CREATE TABLE sqlite_sequence(name,seq)
+----------------------------------------------------------------------------------------------------------
+|              Column              |               Type               |              Schema              |
+----------------------------------------------------------------------------------------------------------
+|               name               |                                  |              "name"              |
+|               seq                |                                  |               "seq"              |
+----------------------------------------------------------------------------------------------------------
+
+version 1 ---------------------------------------------------------------------------------------------------------------

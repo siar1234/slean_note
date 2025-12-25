@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditThemeActivity"
+    android:id="@+id/backgroundView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/background">
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    android:layout_width="@dimen/btn_actionBar"
+                    android:layout_height="@dimen/btn_actionBar"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@font/icons_font"
+                    android:gravity="center"
+                    android:text="@string/icons_back"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/icon_actionBar"/>
+
+                <EditText
+                    android:id="@+id/titleInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/btn_actionBar"
+                    android:layout_marginLeft="@dimen/btn_actionBar"
+                    android:layout_marginEnd="@dimen/btn_actionBar"
+                    android:layout_marginRight="@dimen/btn_actionBar"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:hint="@string/theme_name"
+                    android:background="@null"
+                    android:autofillHints="no"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="@dimen/btn_actionBar"
+                    android:layout_height="@dimen/btn_actionBar"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@font/icons_font"
+                    android:gravity="center"
+                    android:text="@string/icons_check"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/icon_actionBar" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/lightThemeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/set_as_default_light_theme"
+                android:textAllCaps="false"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/darkThemeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/set_as_default_dark_theme"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/status_bar"
+                    android:id="@+id/mainStatusBar"/>
+
+                <include layout="@layout/activity_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_theme_preview"
+                    android:id="@+id/mainActivity" />
+
+                <include layout="@layout/navigation_bar"
+                    android:id="@+id/mainNavigationBar"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mainActivityThemeInput"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_theme_input"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_theme_input"
+                android:layout_marginVertical="@dimen/margin_vertical_theme_input"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/status_bar"
+                    android:id="@+id/editNoteStatusBar"/>
+
+                <include layout="@layout/activity_edit_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_theme_preview"
+                    android:id="@+id/editNoteActivity" />
+
+                <include layout="@layout/navigation_bar"
+                    android:id="@+id/editNoteNavigationBar"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/editNoteActivityThemeInput"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_theme_input"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_theme_input"
+                android:layout_marginVertical="@dimen/margin_vertical_theme_input"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/status_bar"
+                    android:id="@+id/trashStatusBar"/>
+
+                <include layout="@layout/activity_trash"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_theme_preview"
+                    android:id="@+id/trashActivity" />
+
+                <include layout="@layout/navigation_bar"
+                    android:id="@+id/trashNavigationBar"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/trashActivityThemeInput"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_theme_input"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_theme_input"
+                android:layout_marginVertical="@dimen/margin_vertical_theme_input"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/status_bar"
+                    android:id="@+id/settingStatusBar"/>
+
+                <include layout="@layout/activity_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_theme_preview"
+                    android:id="@+id/settingActivity" />
+
+                <include layout="@layout/navigation_bar"
+                    android:id="@+id/settingNavigationBar"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/settingActivityThemeInput"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_theme_input"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_theme_input"
+                android:layout_marginVertical="@dimen/margin_vertical_theme_input"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/background_popup"
+        android:id="@+id/background_popup_editColor"/>
+
+    <include layout="@layout/edit_color"
+            android:visibility="visible"/>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/grid_folder"
+    android:layout_margin="30px"
+    tools:ignore="PxUsage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <View
+            android:id="@+id/parent1"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height= "55px"
+            android:background="@drawable/view_rounded_top"
+            android:layout_gravity="start" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/parent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_rounded_top_right_bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/title"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:gravity="center_vertical">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_fav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:fontFamily="@font/icons_font"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/icons_star"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/icons_more_info"
+                android:fontFamily="@font/icons_font"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/icons_edit"
+                android:fontFamily="@font/icons_font"
+                style="?android:attr/buttonBarButtonStyle"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_move"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/icons_sort"
+                android:fontFamily="@font/icons_font"
+                android:background="@color/transparent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
