@@ -1,3 +1,5 @@
+![icon](icon.png)
+
 # Slean Note
 
 Slean Note is an old note-taking app I created before [Amphi Notes](https://github.com/amphi2024/notes).  
