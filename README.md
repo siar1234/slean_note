@@ -2,7 +2,7 @@
 
 # Slean Note
 
-Slean Note is an old note-taking app I created before [Amphi Notes](https://github.com/amphi2024/notes).  
+Slean Note is an simple note-taking app I created before [Amphi Notes](https://github.com/amphi2024/notes).  
 Some mobile UI elements in Amphi Notes were influenced by Slean Note.
 
 The name "Slean" comes from Simple + Clean.
